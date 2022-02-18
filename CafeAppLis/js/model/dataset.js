@@ -1,3 +1,8 @@
+/**
+ * Foi criado uma constante que são guardada as informações em um JSON do javascript com propriedades id, nome e description.
+ * As informações são iniciadas e executas através do bootstrap de forma dinâmica com o preenchimento do modal do formulário.
+ */
+
 const dataset = [
   {
     id: 1,
@@ -29,4 +34,8 @@ const dataset = [
   },
 ];
 
+
+/**
+ * Exportação padrão do módulo dataset.
+ */
 export default dataset;
